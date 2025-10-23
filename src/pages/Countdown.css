@@ -1,0 +1,110 @@
+.countdown {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* фиксируем высоту под snap */
+  background-image: url("../assets/12.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  scroll-snap-align: start; /* вот это добавляем! */
+  overflow: hidden; /* чтобы не вылезало */
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.time-block {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  min-width: 90px;
+  transition: transform 0.3s ease;
+  animation: floatUp 3s ease-in-out infinite alternate;
+}
+
+.time-block:hover {
+  transform: scale(1.05);
+}
+
+.flip {
+  display: inline-block;
+  font-size: 2.8rem;
+  font-weight: bold;
+  perspective: 400px;
+  transition: transform 0.6s ease-in-out;
+}
+
+.flip.active {
+  animation: flipOnce 0.6s ease-in-out;
+}
+
+@keyframes flipOnce {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+.time-block p {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-top: 8px;
+}
+
+/* --- animations --- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatUp {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}

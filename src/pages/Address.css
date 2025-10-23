@@ -1,0 +1,74 @@
+.address-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/13.jpg") center/cover no-repeat;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 700px;
+  padding: 0 20px;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.title {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #f5d6ba;
+  margin-bottom: 5px;
+}
+
+.address-text {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.map {
+  width: 90%;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  animation: fadeInMap 1.5s ease-in-out 0.5s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInMap {
+  to {
+    opacity: 1;
+  }
+}
