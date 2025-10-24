@@ -10,7 +10,7 @@
   justify-content: center;
   color: #fff;
   font-family: "Playfair Display", serif;
-  scroll-snap-align: start; /* вот это добавляем! */
+  scroll-snap-align: none; /* вот это добавляем! */
   overflow: hidden; /* чтобы не вылезало */
 }
 
