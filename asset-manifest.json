@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Nurbek-Nuraiym/static/css/main.b63d6da1.css",
-    "main.js": "/Nurbek-Nuraiym/static/js/main.b5ede357.js",
+    "main.css": "/Nurbek-Nuraiym/static/css/main.ebfd6308.css",
+    "main.js": "/Nurbek-Nuraiym/static/js/main.cd458dc0.js",
     "static/js/453.9b5cb98b.chunk.js": "/Nurbek-Nuraiym/static/js/453.9b5cb98b.chunk.js",
     "static/media/couple.jpeg": "/Nurbek-Nuraiym/static/media/couple.f1d68adc4b62ec493aa2.jpeg",
     "static/media/17.jpeg": "/Nurbek-Nuraiym/static/media/17.c933eccfca9f5632778d.jpeg",
     "static/media/hall.jpg": "/Nurbek-Nuraiym/static/media/hall.0643e8062d69d8c28415.jpg",
     "index.html": "/Nurbek-Nuraiym/index.html",
-    "main.b63d6da1.css.map": "/Nurbek-Nuraiym/static/css/main.b63d6da1.css.map",
-    "main.b5ede357.js.map": "/Nurbek-Nuraiym/static/js/main.b5ede357.js.map",
+    "main.ebfd6308.css.map": "/Nurbek-Nuraiym/static/css/main.ebfd6308.css.map",
+    "main.cd458dc0.js.map": "/Nurbek-Nuraiym/static/js/main.cd458dc0.js.map",
     "453.9b5cb98b.chunk.js.map": "/Nurbek-Nuraiym/static/js/453.9b5cb98b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b63d6da1.css",
-    "static/js/main.b5ede357.js"
+    "static/css/main.ebfd6308.css",
+    "static/js/main.cd458dc0.js"
   ]
 }
