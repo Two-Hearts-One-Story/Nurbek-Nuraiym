@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Nurbek-Nuraiym/static/css/main.9057955f.css",
+    "main.css": "/Nurbek-Nuraiym/static/css/main.3f2b9b31.css",
     "main.js": "/Nurbek-Nuraiym/static/js/main.116988fb.js",
     "static/js/453.9b5cb98b.chunk.js": "/Nurbek-Nuraiym/static/js/453.9b5cb98b.chunk.js",
     "static/media/couple.jpeg": "/Nurbek-Nuraiym/static/media/couple.f1d68adc4b62ec493aa2.jpeg",
     "static/media/17.jpeg": "/Nurbek-Nuraiym/static/media/17.c933eccfca9f5632778d.jpeg",
     "static/media/hall.jpg": "/Nurbek-Nuraiym/static/media/hall.0643e8062d69d8c28415.jpg",
     "index.html": "/Nurbek-Nuraiym/index.html",
-    "main.9057955f.css.map": "/Nurbek-Nuraiym/static/css/main.9057955f.css.map",
+    "main.3f2b9b31.css.map": "/Nurbek-Nuraiym/static/css/main.3f2b9b31.css.map",
     "main.116988fb.js.map": "/Nurbek-Nuraiym/static/js/main.116988fb.js.map",
     "453.9b5cb98b.chunk.js.map": "/Nurbek-Nuraiym/static/js/453.9b5cb98b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9057955f.css",
+    "static/css/main.3f2b9b31.css",
     "static/js/main.116988fb.js"
   ]
 }
